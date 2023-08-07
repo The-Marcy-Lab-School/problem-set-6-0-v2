@@ -1,0 +1,30 @@
+{
+  "idToTestNameHash": {
+    "MoTe1": "Modify Tests modifyFunc",
+    "FrScTe1": "From Scratch Tests pause - Create a function that pauses for a certain millisecond count and then resolves",
+    "DeTe1": "Debug Tests debugFunc"
+  },
+  "testNameToIdHash": {
+    "Modify Tests modifyFunc": "MoTe1",
+    "From Scratch Tests func7": "FrScTe1",
+    "Debug Tests debugFunc": "DeTe1",
+    "From Scratch Tests pause - Create a function that pauses for a certain millisecond count and then resolves": "FrScTe1"
+  },
+  "testScores": {
+    "Modify Tests": {
+      "MoTe1": 0
+    },
+    "From Scratch Tests": {
+      "FrScTe1": 1
+    },
+    "Debug Tests": {
+      "DeTe1": 0
+    }
+  },
+  "humanReadable": {
+    "Modify Tests": "0/1",
+    "finalTestScore": "FINAL SCORE: 1/3",
+    "From Scratch Tests": "1/1",
+    "Debug Tests": "0/1"
+  }
+}
