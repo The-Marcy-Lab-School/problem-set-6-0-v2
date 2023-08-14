@@ -4,10 +4,10 @@ const resolvedWrapper = () => {
 const rejectedWrapper = () => {
 };
 
-const thenWrapper = (promisedValue) => {
+const thenWrapper = () => {
 };
 
-const thenCatchWrapper = (promisedValue) => {
+const thenCatchWrapper = () => {
 };
 
 const pauseForMs = () => {

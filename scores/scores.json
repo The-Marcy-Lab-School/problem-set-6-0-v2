@@ -1,30 +1,50 @@
 {
   "idToTestNameHash": {
-    "MoTe1": "Modify Tests modifyFunc",
-    "FrScTe1": "From Scratch Tests pause - Create a function that pauses for a certain millisecond count and then resolves",
-    "DeTe1": "Debug Tests debugFunc"
+    "FrScTe1": "From Scratch Tests resolvedWrapper - returns a promise that resolves to the value passed in",
+    "FrScTe2": "From Scratch Tests rejectedWrapper - returns a rejected promise that needs to be caught",
+    "FrScTe3": "From Scratch Tests rejectedWrapper - the rejected value is a new Error",
+    "FrScTe4": "From Scratch Tests thenWrapper - uses .then to log and return (in a promise) the value from the passed in promise",
+    "FrScTe5": "From Scratch Tests thenCatchWrapper - uses .then to log and return (in a promise) the value from the passed in promise",
+    "FrScTe6": "From Scratch Tests thenCatchWrapper - uses .catch to log and safely return (in a promise) null when the passed in promise rejects",
+    "FrScTe7": "From Scratch Tests pauseForMs - returns a promise, but that promise has no value",
+    "FrScTe8": "From Scratch Tests pauseForMs - calls set timeout with the passed in number of milliseconds",
+    "FrScTe9": "From Scratch Tests pauseForMs - returns a promise that resolves after the passed in number of milliseconds",
+    "MoTe1": "Modify Tests return4RandomColors - should return 4 different colors each time in a promised array",
+    "MoTe2": "Modify Tests should return 4 different colors each time"
   },
   "testNameToIdHash": {
-    "Modify Tests modifyFunc": "MoTe1",
-    "From Scratch Tests func7": "FrScTe1",
-    "Debug Tests debugFunc": "DeTe1",
-    "From Scratch Tests pause - Create a function that pauses for a certain millisecond count and then resolves": "FrScTe1"
+    "From Scratch Tests resolvedWrapper - returns a promise that resolves to the value passed in": "FrScTe1",
+    "From Scratch Tests rejectedWrapper - returns a rejected promise that needs to be caught": "FrScTe2",
+    "From Scratch Tests rejectedWrapper - the rejected value is a new Error": "FrScTe3",
+    "From Scratch Tests thenWrapper - uses .then to log and return (in a promise) the value from the passed in promise": "FrScTe4",
+    "From Scratch Tests thenCatchWrapper - uses .then to log and return (in a promise) the value from the passed in promise": "FrScTe5",
+    "From Scratch Tests thenCatchWrapper - uses .catch to log and safely return (in a promise) null when the passed in promise rejects": "FrScTe6",
+    "From Scratch Tests pauseForMs - returns a promise, but that promise has no value": "FrScTe7",
+    "From Scratch Tests pauseForMs - calls set timeout with the passed in number of milliseconds": "FrScTe8",
+    "From Scratch Tests pauseForMs - returns a promise that resolves after the passed in number of milliseconds": "FrScTe9",
+    "Modify Tests should return an array of 4 colors as a promise": "MoTe1",
+    "Modify Tests should return 4 different colors each time": "MoTe1",
+    "Modify Tests return4RandomColors - should return 4 different colors each time in a promised array": "MoTe1"
   },
   "testScores": {
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0,
+      "FrScTe3": 0,
+      "FrScTe4": 0,
+      "FrScTe5": 0,
+      "FrScTe6": 0,
+      "FrScTe7": 0,
+      "FrScTe8": 0,
+      "FrScTe9": 0
+    },
     "Modify Tests": {
       "MoTe1": 0
-    },
-    "From Scratch Tests": {
-      "FrScTe1": 1
-    },
-    "Debug Tests": {
-      "DeTe1": 0
     }
   },
   "humanReadable": {
-    "Modify Tests": "0/1",
-    "finalTestScore": "FINAL SCORE: 1/3",
-    "From Scratch Tests": "1/1",
-    "Debug Tests": "0/1"
+    "From Scratch Tests": "0/9",
+    "finalTestScore": "FINAL SCORE: 0/10",
+    "Modify Tests": "0/1"
   }
 }
